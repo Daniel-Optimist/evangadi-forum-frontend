@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../../../components/Layout/Layout";
-import classes from "./termsAndConditions.module.css"; // Import the CSS module
+import classes from "./termsAndConditions.module.css"; // Import the CSS module ; this module's initial letter was uppercase which caused deployment in netlify to fail; I corrected it. 
 
 const TermsAndConditions = () => {
   return (
