@@ -12,10 +12,11 @@ import Answer from "./pages/Answer/Answer";
 import Layout from "./components/Layout/Layout";
 import HowItWorks from "./pages/Links/HowItWorks/HowItWorks";
 import PrivacyPolicy from "./pages/Links/PrivacyPolicy/PrivacyPolicy";
-import TermsAndConditions from "./pages/Links/TermsAndConditions/TermsAndConditions";
+import TermsConditions from "./pages/Links/TermsConditions/TermsConditions"
 import EditQuestion from "./pages/EditQuestion/EditQuestion";
 // DKG: import EditAnswer
 import EditAnswer from "./pages/EditAnswer/EditAnswer";
+
 
 
 import PwChangeNewPw from "./pages/PwChange/PwChangeNewPw";
@@ -100,7 +101,7 @@ function App() {
         />
         <Route path="/howItWorks" element={<HowItWorks />} />
         <Route path="/privacy" element={<PrivacyPolicy />} />
-        <Route path="/termsAndConditions" element={<TermsAndConditions />} />
+        <Route path="/termsAndConditions" element={<TermsConditions />} />
         
         {/* Route for password reset */}
         <Route
